@@ -21,7 +21,8 @@
                         {% csrf_token %}
 
                         {{ form.as_p }}
-
+                        
+                        <a href="{% url 'data' %}" class="btn btn-dark">Kembali</a>
                         <button class="btn btn-primary">Kirim</button>
                     </form>
                 </div>
